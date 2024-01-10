@@ -19,7 +19,7 @@ export default function NavBar() {
 
   return (
     <>
-      <div className="shadow-md bg-blue-100 w-full z-50">
+      <div className="shadow-md bg-slate-300 w-full z-50">
         <div className="md:flex justify-between py-4 md:px-10 px-7">
           <div className="font-bold text-2xl flex items-center">
             Ashish Pandey
@@ -41,10 +41,10 @@ export default function NavBar() {
           </div>
 
           <ul
-            className={`md:flex md:items-center md:pb-0 pb-2 bg-blue-100 absolute md:static md:z-auto z-[-1] right-0 w-full md:w-auto md:pl-0 pl-7 ${
+            className={`md:flex md:items-center md:pb-0 bg-slate-300 pb-2 absolute md:static md:z-auto  right-0 w-full md:w-auto md:pl-0 pl-7 ${
               navOpen
-                ? "top-[86.5vh] opacity-100 z-10 transition-all duration-300 ease-in"
-                : "top-[40vh] md:opacity-100 opacity-0 transition-all duration-500 ease-out"
+                ? "top-[86.5vh] opacity-100 z-30 transition-all duration-300 ease-in"
+                : "top-[40vh] md:opacity-100 opacity-0 z-[-1] transition-all duration-500 ease-out"
             }`}
           >
             {navLinks.map((link) => (
