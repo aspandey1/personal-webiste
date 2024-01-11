@@ -60,7 +60,10 @@ const NavBar: React.FC<scrollToHome> = (props: scrollToHome) => {
               <li key={link.name} className="md:ml-8 md:my-0 my-7 text-lg">
                 <a
                   className="text-gray-200 hover:text-blue-400 hover:cursor-pointer duration-500"
-                  onClick={() => executeScroll(link.refUsed)}
+                  onClick={() => {
+                    executeScroll(link.refUsed);
+                    setNavOpen(false);
+                  }}
                 >
                   {link.name}
                 </a>
