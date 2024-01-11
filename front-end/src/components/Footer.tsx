@@ -1,9 +1,12 @@
+// Add Github, YouTube, and Demo buttons
+// Download Resume
+
 import { BsGithub } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <footer className="footer bg-slate-800 text-white">
+    <footer className="footer bg-zinc-800 text-white">
       <div className="flex justify-between px-10 py-8">
         <div className="flex items-center">
           <div>Developed by Ashish Pandey</div>

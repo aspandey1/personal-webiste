@@ -4,7 +4,7 @@ import AniquestHome from "../assets/aniquest-home.png";
 export default function Portfolio() {
   return (
     <>
-      <div className="px-9 pt-10 bg-gradient-to-t from-white to-slate-200">
+      <div className="px-9 pt-[4.5rem] bg-gradient-to-t from-white to-slate-300">
         <div className="font-bold text-5xl">Portfolio</div>
         <div className="mt-1 w-[70px] h-[5px] bg-blue-500"></div>
         <div className="pt-10 ">
@@ -16,25 +16,25 @@ export default function Portfolio() {
               <p className="text-3xl font-bold">Full Stack Website</p>
               <ul className="pt-2 pl-3 list-disc">
                 <li className="py-1 ml-5">
-                  Developed a recipe social media application compatible with
-                  both iOS and Android platforms using React Native
+                  Created a React website where users can search for and access
+                  detailed information about their favorite anime
                 </li>
                 <li className="py-1 ml-5">
-                  Empowered users to post, rate, comment on, and favorite
-                  recipes within the application
+                  Implemented user account functionality, allowing users to
+                  create accounts to view the most popular and trending anime on
+                  the website
                 </li>
                 <li className="py-1 ml-5">
-                  Implemented a recipe matching feature, enabling users to find
-                  recipes based on keywords and providing details such as
-                  serving size, required ingredients, and instructions
+                  Provided users with the capability to save or delete anime
+                  titles, managing their personalized library of favorites
                 </li>
                 <li className="py-1 ml-5">
-                  Included a grocery list feature that allows users to add or
-                  delete ingredients and check off items already purchased
+                  Express is employed to create a REST API for user
+                  registration, login, and data retrieval
                 </li>
                 <li className="py-1 ml-5">
-                  Firestore, a NoSQL database, is used to store data, such as
-                  user profiles, posts, grocery lists, and recipes
+                  Redux Toolkit is used to manages the app state, enabling
+                  shared data access across multiple components
                 </li>
                 <li className="py-1 ml-5">
                   <b>Tech Stack</b>: React, Redux Toolkit, Express, MongoDB
