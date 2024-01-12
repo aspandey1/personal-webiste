@@ -7,6 +7,8 @@ import SummaryAndSkills from "./SummaryAndSkill";
 import EduAndCert from "./EduAndCert";
 import Portfolio from "./Portfolio";
 import Footer from "./Footer";
+import ViewButton from "./ViewButton";
+import DownloadButton from "./DownloadButton";
 
 export default function Home() {
   const homeRef = useRef<any>(null);
@@ -34,7 +36,18 @@ export default function Home() {
             onClick={executeScroll}
           />
         </div>
+        <div className="absolute bottom-0 text-gray-400 text-sm">
+          Photo by{" "}
+          <a href="https://unsplash.com/@pueblovista?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
+            Paul Pastourmatzis{" "}
+          </a>
+          on{" "}
+          <a href="https://unsplash.com/photos/silhouette-of-trees-covered-by-fog-KT3WlrL_bsg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
+            Unsplash
+          </a>
+        </div>
       </div>
+
       <div className="sticky top-0">
         <NavBar
           homeRef={homeRef}
@@ -42,12 +55,21 @@ export default function Home() {
           portfolioRef={portfolioRef}
         />
       </div>
+
       <div
         ref={aboutRef}
         className="bg-gradient-to-t from-white to-slate-300 pt-[1.5rem] pb-10"
       >
         <SummaryAndSkills />
         <EduAndCert />
+      </div>
+      <div className="md:flex pb-10">
+        <div className="md:w-[50%] md:ml-9 lg:pr-10 mx-9 mb-3">
+          <ViewButton title="View Resume" />
+        </div>
+        <div className="md:w-[50%] md:mr-9 mx-9 ">
+          <DownloadButton title="Download Resume" />
+        </div>
       </div>
       <div ref={portfolioRef}>
         <Portfolio />

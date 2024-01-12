@@ -7,26 +7,26 @@ import { BsLinkedin } from "react-icons/bs";
 const Footer = () => {
   return (
     <footer className="footer bg-zinc-800 text-white">
-      <div className="flex justify-between px-10 py-8">
-        <div className="flex items-center">
-          <div>Developed by Ashish Pandey</div>
+      <div className="md:flex md:justify-between px-10 py-8">
+        <div className="flex md:items-center justify-center md:mb-0 mb-8">
+          <div className="text-sm md:text-lg">Developed by Ashish Pandey</div>
         </div>
-        <div className="flex">
+        <div className="flex justify-center gap-5">
           <a
             target="_blank"
             rel="noreferrer"
             href="https://github.com/aspandey1"
-            className="ml-10"
+            className="md:ml-10 md:text-6xl text-4xl"
           >
-            <BsGithub size={60} className="" />
+            <BsGithub className="" />
           </a>
           <a
             target="_blank"
             rel="noreferrer"
             href="https://www.linkedin.com/in/ashishpandey-"
-            className="ml-10"
+            className="md:ml-10 md:text-6xl text-4xl"
           >
-            <BsLinkedin size={60} className="" />
+            <BsLinkedin className="" />
           </a>
         </div>
       </div>

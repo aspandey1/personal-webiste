@@ -50,7 +50,7 @@ const NavBar: React.FC<scrollToHome> = (props: scrollToHome) => {
           </div>
 
           <ul
-            className={` md:flex md:items-center md:pb-0 bg-zinc-800 pb-2 absolute md:static md:z-auto  right-0 w-full md:w-auto md:pl-0 pl-7 ${
+            className={`md:flex md:items-center md:pb-0 bg-zinc-800 pb-2 absolute md:static md:z-auto right-0 w-full md:w-auto md:pl-0 pl-7 ${
               navOpen
                 ? "opacity-100 z-30 transition-all duration-300 ease-in"
                 : " md:opacity-100 opacity-0 z-[-1] transition-all duration-200 ease-out"

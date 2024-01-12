@@ -8,11 +8,11 @@ export default function Portfolio() {
         <div className="font-bold text-5xl">Portfolio</div>
         <div className="mt-1 w-[70px] h-[5px] bg-blue-500"></div>
         <div className="pt-10 ">
-          <div className="md:flex pb-10">
-            <div className="w-fill md:w-[50%]">
+          <div className="lg:flex pb-10">
+            <div className="w-fill lg:w-[50%]">
               <img src={AniquestHome} alt="" className="md:w-[95%] pb-5" />
             </div>
-            <div className="w-fill md:w-[50%]">
+            <div className="w-fill lg:w-[50%]">
               <p className="text-3xl font-bold">Full Stack Website</p>
               <ul className="pt-2 pl-3 list-disc">
                 <li className="py-1 ml-5">
@@ -42,11 +42,11 @@ export default function Portfolio() {
               </ul>
             </div>
           </div>
-          <div className="md:flex pb-10">
-            <div className="fill md:w-[50%]">
-              <img src={YummeImg} alt="" className="md:w-[95%] pb-5" />
+          <div className="lg:flex pb-10">
+            <div className="fill lg:w-[50%]">
+              <img src={YummeImg} alt="" className="lg:w-[95%] pb-5" />
             </div>
-            <div className="fill md:w-[50%]">
+            <div className="fill lg:w-[50%]">
               <p className="text-3xl font-bold">Yumme App</p>
               <ul className="pt-2 pl-3 list-disc">
                 <li className="py-1 ml-5">
