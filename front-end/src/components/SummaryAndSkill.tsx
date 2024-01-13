@@ -14,19 +14,19 @@ export default function Resume() {
       <div className="px-9 pt-10">
         <div className="font-bold text-5xl">About</div>
         <div className="mt-1 w-[70px] h-[5px] bg-blue-500"></div>
-        <div className="md:flex pt-10  w-full">
+        <div className="md:flex pt-10 gap-10 w-full">
           <div className="md:w-[50%]">
-            <div className="w-auto md:pr-10">
+            <div className="w-auto">
               <h1 className="text-4xl font-bold">Summary</h1>
               <p className="font-bold pt-4 text-xl">Ashish Pandey</p>
-              <p className="italic pt-2 text-md">
+              <p className="italic pt-2 text-lg">
                 I am a Computer Science graduate with a passion for
                 problem-solving and a track record of delivering practical
                 solutions. My background in computer science has equipped me
                 with the skills to tackle complex challenges and translate them
                 into actionable solutions.
               </p>
-              <ul className="pt-2 pl-3 list-disc">
+              <ul className="pt-2 pl-3 list-disc text-lg">
                 <li className="py-1 ml-5">ashish6pandey@gmail.com</li>
                 <li className="py-1 ml-5">806-470-5404</li>
                 <li className="py-1 ml-5">Lubbock, Texas</li>

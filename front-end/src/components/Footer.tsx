@@ -1,6 +1,3 @@
-// Add Github, YouTube, and Demo buttons
-// Download Resume
-
 import { BsGithub } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 

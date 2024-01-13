@@ -63,11 +63,17 @@ export default function Home() {
         <SummaryAndSkills />
         <EduAndCert />
       </div>
-      <div className="md:flex pb-10">
-        <div className="md:w-[50%] md:ml-9 lg:pr-10 mx-9 mb-3">
-          <ViewButton title="View Resume" />
+      <div className="md:flex pb-10 px-9 gap-10">
+        <div className="md:w-[50%] pb-2">
+          <ViewButton
+            title="View Resume"
+            color="bg-zinc-800"
+            icon="externalLink"
+            iconColor="lightgrey"
+            textColor="text-gray-300"
+          />
         </div>
-        <div className="md:w-[50%] md:mr-9 mx-9 ">
+        <div className="md:w-[50%]">
           <DownloadButton title="Download Resume" />
         </div>
       </div>

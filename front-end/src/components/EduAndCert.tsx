@@ -2,9 +2,9 @@ export default function Resume() {
   return (
     <>
       <div className="px-9 pt-10">
-        <div className="md:flex pt-10  w-full">
+        <div className="md:flex pt-10 gap-10 w-full">
           <div className="md:w-[50%]">
-            <div className="w-auto md:pr-10">
+            <div className="w-auto">
               <h1 className="text-4xl font-bold">Education</h1>
               <div className=" pt-4">
                 <p className="font-bold text-xl">
@@ -16,7 +16,7 @@ export default function Resume() {
                 <p className="my-1 bg-gray-300 w-fit p-2 text-xl">
                   2019 - 2023
                 </p>
-                <ul className="pt-2 pl-3 list-disc">
+                <ul className="pt-2 pl-3 list-disc text-lg">
                   <li className="py-1 ml-5">
                     <b>GPA:</b> 3.68/4.0
                   </li>
@@ -40,7 +40,7 @@ export default function Resume() {
                 <p className="my-1 bg-gray-300 w-fit p-2 text-xl">
                   October 2023
                 </p>
-                <ul className="pt-2 pl-3 list-disc">
+                <ul className="pt-2 pl-3 list-disc text-lg">
                   <li className="py-1 ml-5">
                     Experience creating and managing Azure Functions, Azure App
                     Service, and Azure Logic Apps
