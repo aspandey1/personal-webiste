@@ -29,7 +29,7 @@ const NavBar: React.FC<scrollToHome> = (props: scrollToHome) => {
   return (
     <>
       <div className="shadow-md bg-zinc-800 w-full z-50 text-gray-200">
-        <div className="md:flex justify-between py-4 md:px-10 px-7">
+        <div className="md:flex justify-between py-4 md:px-[5rem] px-7">
           <div className="font-bold text-2xl flex items-center">
             Ashish Pandey
             {navOpen ? (

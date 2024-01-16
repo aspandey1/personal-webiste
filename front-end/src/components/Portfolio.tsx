@@ -5,7 +5,7 @@ import ViewButton from "./ViewButton";
 export default function Portfolio() {
   return (
     <>
-      <div className="px-9 pt-[4.5rem] bg-gradient-to-t from-white to-slate-300">
+      <div className="px-[5rem] pt-[4.5rem] bg-gradient-to-t from-white to-slate-300">
         <div className="font-bold text-5xl">Portfolio</div>
         <div className="mt-1 w-[70px] h-[5px] bg-blue-500"></div>
         <div className="pt-10 ">
@@ -104,9 +104,9 @@ export default function Portfolio() {
                   <ViewButton
                     title="Demo"
                     icon="youtube"
-                    color="bg-[#b2071d]"
-                    iconColor="lightgrey"
-                    textColor="text-gray-300"
+                    color="bg-[#c4302b]"
+                    iconColor="white"
+                    textColor="text-white"
                     link="https://youtu.be/5FJjbYQitAg"
                   />
                 </div>

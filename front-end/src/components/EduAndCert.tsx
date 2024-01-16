@@ -1,7 +1,7 @@
 export default function Resume() {
   return (
     <>
-      <div className="px-9 pt-10">
+      <div className="px-[5rem] pt-10">
         <div className="md:flex pt-10 gap-10 w-full">
           <div className="md:w-[50%]">
             <div className="w-auto">

@@ -4,7 +4,7 @@ import { BsLinkedin } from "react-icons/bs";
 const Footer = () => {
   return (
     <footer className="footer bg-zinc-800 text-white">
-      <div className="md:flex md:justify-between px-10 py-8">
+      <div className="md:flex md:justify-between px-[5rem] py-8">
         <div className="flex md:items-center justify-center md:mb-0 mb-8">
           <div className="text-sm md:text-lg">Developed by Ashish Pandey</div>
         </div>

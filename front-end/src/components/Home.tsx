@@ -63,7 +63,7 @@ export default function Home() {
         <SummaryAndSkills />
         <EduAndCert />
       </div>
-      <div className="md:flex pb-10 px-9 gap-10">
+      <div className="md:flex pb-10 px-[5rem] gap-10">
         <div className="md:w-[50%] pb-2">
           <ViewButton
             title="View Resume"
