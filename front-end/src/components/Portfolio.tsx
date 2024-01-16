@@ -5,7 +5,7 @@ import ViewButton from "./ViewButton";
 export default function Portfolio() {
   return (
     <>
-      <div className="px-[5rem] pt-[4.5rem] bg-gradient-to-t from-white to-slate-300">
+      <div className="md:px-[5rem] px-4 pt-[4.5rem] bg-gradient-to-t from-white to-slate-300">
         <div className="font-bold text-5xl">Portfolio</div>
         <div className="mt-1 w-[70px] h-[5px] bg-blue-500"></div>
         <div className="pt-10 ">
