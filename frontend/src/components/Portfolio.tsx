@@ -37,7 +37,7 @@ export default function Portfolio() {
                   <b>Tech Stack</b>: React, Redux Toolkit, Express, MongoDB
                 </li>
               </ul>
-              <div className="md:flex md:gap-2 pt-5">
+              <div className="md:flex md:gap-6 px-2 pt-5">
                 <div className="md:w-[50%]">
                   <ViewButton
                     title="Code"
@@ -89,7 +89,7 @@ export default function Portfolio() {
                   <b>Tech Stack</b>: React Native and Firebase
                 </li>
               </ul>
-              <div className="md:flex md:gap-2 pt-5">
+              <div className="md:flex md:gap-6 px-2 pt-5">
                 <div className="md:w-[50%]">
                   <ViewButton
                     title="Code"
